@@ -21,7 +21,7 @@ function MainWindow({ room, username, onLeave, createRoom }) {
   const [participants, setParticipants] = useState({});
 
   //Configuration variables
-  const SERVER_URL = "http://16.171.230.211:8088/janus";
+  const SERVER_URL = "https://16.171.230.211:8088/janus";
 
   let roomId = room
     ? room
