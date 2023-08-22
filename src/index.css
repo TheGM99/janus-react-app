@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+}
+
+body {
+	background:#323136;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+* {
+	scroll-behavior: smooth;
+	scrollbar-width: thin;
+	scrollbar-color: #464444;
+  }
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: #353333;
+border-radius: 20px;
+}
